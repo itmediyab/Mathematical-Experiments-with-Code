@@ -1,0 +1,12 @@
+---
+title: "Assignment 1"
+author: "Diya Bijoy"
+date: "2025-03-27"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```         
+```
