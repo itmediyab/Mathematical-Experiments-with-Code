@@ -84,7 +84,9 @@ date: "2025-03-31"
     \
     <iframe src="https://editor.p5js.org/naman.rajoria19/full/souDanBHQ" height= '600' width='800'></iframe>
 
-### Garden Elements & Math Concepts
+### Process & Practise
+
+We began by exploring natural patterns and generative algorithms, experimenting with different plant growth models, fractals and interactive elements.
 
 <!-- First Row -->
 
@@ -94,6 +96,12 @@ date: "2025-03-31"
 
 <!-- Second Row -->
 
-::: {style="display: flex; justify-content: center; gap: 10px;"}
+::: {style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;"}
 <iframe src="https://editor.p5js.org/AanyaPandith/full/G1azhfHjT" width="400" height="300"></iframe> <iframe src="https://editor.p5js.org/diyaaa/full/VjLCQemJp" width="400" height="300"></iframe>
+:::
+
+<!-- Third Row (New Sketches) -->
+
+::: {style="display: flex; justify-content: center; gap: 10px;"}
+<iframe src="https://editor.p5js.org/pmcfarla/full/2W3ewKjyN" width="400" height="300"></iframe> <iframe src="https://editor.p5js.org/diyaaa/full/u7gq4GuyG" width="400" height="300"></iframe>
 :::
