@@ -35,10 +35,11 @@ Math Concept: Julia Fractals
 
 -   The rule takes a number, changes it using a formula and checks if it stays small or grows big.
 
--   In the code, it creates a procedural landscape where blue areas represent water, and green areas represent land.\
-    \
-    <iframe src="https://editor.p5js.org/rayna20singh20/full/s1X5v9BHc" height= '600' width='800'></iframe>\
+-   In the code, it creates a procedural landscape where blue areas represent water, and green areas represent land.
 
+<iframe src="https://editor.p5js.org/rayna20singh20/full/s1X5v9BHc" height= '600' width='800'></iframe>
+
+\
 **3) Trees**\
 Math Concept: Geometric Progression
 
@@ -47,8 +48,8 @@ Math Concept: Geometric Progression
 -   Ln​=L0​×rn, where the branch length shrinks by **70%** each step.
 
 -   Each branch recursively creates three smaller branches, reducing in size until the length is 10 or less.\
-    \
-    <iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height= '600' width='800'></iframe>
+
+<iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height= '600' width='800'></iframe>
 
 **4) Butterflies**\
 Math Concept: Circular Motion
@@ -58,8 +59,8 @@ Math Concept: Circular Motion
 -   Formula: x=rcos(θ),y=rsin(θ)
 
 -   Each butterfly moves in a circular path by updating its xxx and yyy coordinates using cosine and sine functions.\
-    \
-    <iframe src="https://editor.p5js.org/naman.rajoria19/full/oAbr4xEjU" height= '600' width='800'></iframe>\
+
+<iframe src="https://editor.p5js.org/naman.rajoria19/full/oAbr4xEjU" height= '600' width='800'></iframe>\
 
 **6) Clouds**\
 Math Concept: Euclidean Distance
@@ -72,8 +73,8 @@ Math Concept: Euclidean Distance
 -   In the code, it calculates the distance between the mouse and each cloud to adjust their size and transparency.
 
 -   Closer clouds appear bigger and brighter, while farther clouds appear smaller and more transparent.\
-    \
-    <iframe src="https://editor.p5js.org/naman.rajoria19/full/souDanBHQ" height= '600' width='800'></iframe>
+
+<iframe src="https://editor.p5js.org/naman.rajoria19/full/souDanBHQ" height= '600' width='800'></iframe>
 
 ###  Process & Practise
 
