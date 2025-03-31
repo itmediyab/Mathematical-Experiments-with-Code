@@ -1,5 +1,0 @@
----
-title: "Assigment 2"
-author: "Diya Bijoy"
-date: "2025-03-24"
----
