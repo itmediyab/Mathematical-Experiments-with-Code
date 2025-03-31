@@ -11,42 +11,13 @@ Diya Bijoy, Rayna Singh, Aanya Pandith, Naman Rajoria, Soumya Saboo
 ### Concept Note
 
 \
-In Islamic culture, creating a garden is equivalent to building a piece of heaven on earth. The
-main objective of this art piece is to fabricate an immersive 3D garden that reimagines natural
-landscapes through digital media using code. The title “Avavrin,” is Nirvana spelled backwards,
-the reason for initiating this title is to reinstate the serenity that a garden brings to the visitor. Our
-main objective is to mirror a real-world garden, or rather our interpretation of the same, onto a
-digital stage. Hence, we use the mirror as our main conduit for this exercise and hold up a mirror
-on the word ‘Nirvana.’ Nirvana can be interpreted as a place or state of oblivion to care, pain, or
-external reality.
+In Islamic culture, creating a garden is equivalent to building a piece of heaven on earth. The main objective of this art piece is to fabricate an immersive 3D garden that reimagines natural landscapes through digital media using code. The title “Anavrin,” is Nirvana spelled backwards, the reason for initiating this title is to reinstate the serenity that a garden brings to the visitor. Our main objective is to mirror a real-world garden, or rather our interpretation of the same, onto a digital stage. Hence, we use the mirror as our main conduit for this exercise and hold up a mirror on the word ‘Nirvana.’ Nirvana can be interpreted as a place or state of oblivion to care, pain, or external reality.
 
-Our intent wasn’t just to create a mere replication of a garden using the varied and vibrant
-mathematical functions that we learnt. Rather, we wanted to create a body of work that echoes
-it’s origin, that is laid with embedded metaphors and meaning. We wanted it to be both a visual
-and philosophical exploration and creation.
+Our intent wasn’t just to create a mere replication of a garden using the varied and vibrant mathematical functions that we learnt. Rather, we wanted to create a body of work that echoes it’s origin, that is laid with embedded metaphors and meaning. We wanted it to be both a visual and philosophical exploration and creation.
 
-This project blends art, ecology, and technology to create an environment that evolves based on
-the contributions of each teammate. We have established pathways for the viewers or
-spectators to not only eye the art piece but interact with it. Our philosophy dictates that if art
-can’t make you stop, look and interact, if it can’t make you think, there is no point in calling it art.
-We didn’t want to infer the metaphor or the alt text we use in this, instead, we left it to the viewer
-with any discretion to figure out how the garden is laid out and the purpose of each element.
-Parallel to the beginning of every epic, we start off with the sky. The sky is the poetry cloud, a
-cluster of disconinuities laid out in a channel, they indicate the presence of divinity and pivot
-change. Then we proceed to the flowers, that change colour and shape and position, they
-embody all material objects. After which we have the trees, which grow and perish, they are
-used to metaphorise change. We have butterflies in the composition that embody the untimely
-notion of life and death and life after death. Finally we have a pond, a water body to symbolise
-rejuvenation.
+This project blends art, ecology, and technology to create an environment that evolves based on the contributions of each teammate. We have established pathways for the viewers or spectators to not only eye the art piece but interact with it. Our philosophy dictates that if art can’t make you stop, look and interact, if it can’t make you think, there is no point in calling it art. We didn’t want to infer the metaphor or the alt text we use in this, instead, we left it to the viewer with any discretion to figure out how the garden is laid out and the purpose of each element. Parallel to the beginning of every epic, we start off with the sky. The sky is the poetry cloud, a cluster of disconinuities laid out in a channel, they indicate the presence of divinity and pivot change. Then we proceed to the flowers, that change colour and shape and position, they embody all material objects. After which we have the trees, which grow and perish, they are used to metaphorise change. We have butterflies in the composition that embody the untimely notion of life and death and life after death. Finally we have a pond, a water body to symbolise rejuvenation.
 
-Using p5.js, WEBL and learning how to put everything together felt difficult and overwhelming to
-a lot of us. But we persisted and figured out how to navigate through the tough times. For the
-purpose of creating our digital ecosystem, we considered and looked to Mother Nature for
-inspiration. We developed and formulated an ecosystem. Each element is a contribution of each
-individual and their creative expression in the most expressive way. It also reflects the diversity
-and convergence of our minds and ideas and how they all formulate and meet at a common
-ground. The purpose of this art piece is to evoke the sense of being in a garden and trying to
-visualise the garden but in a more visceral manner.
+Using p5.js, WEBL and learning how to put everything together felt difficult and overwhelming to a lot of us. But we persisted and figured out how to navigate through the tough times. For the purpose of creating our digital ecosystem, we considered and looked to Mother Nature for inspiration. We developed and formulated an ecosystem. Each element is a contribution of each individual and their creative expression in the most expressive way. It also reflects the diversity and convergence of our minds and ideas and how they all formulate and meet at a common ground. The purpose of this art piece is to evoke the sense of being in a garden and trying to visualise the garden but in a more visceral manner.
 
 ### Garden Elements & Math Concepts
 
@@ -77,7 +48,9 @@ Math Concept: Julia Fractals
 
 -   In the code, it creates a procedural landscape where blue areas represent water, and green areas represent land.
 
-<iframe src="https://editor.p5js.org/rayna20singh20/full/s1X5v9BHc" height= '600' width='800'></iframe>
+<iframe src="https://editor.p5js.org/rayna20singh20/full/s1X5v9BHc" height="600" width="800">
+
+</iframe>
 
 \
 \
@@ -90,7 +63,9 @@ Math Concept: Geometric Progression
 
 -   Each branch recursively creates three smaller branches, reducing in size until the length is 10 or less.\
 
-<iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height= '600' width='800'></iframe>
+<iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height="600" width="800">
+
+</iframe>
 
 **4) Butterflies**\
 Math Concept: Circular Motion
@@ -101,7 +76,11 @@ Math Concept: Circular Motion
 
 -   Each butterfly moves in a circular path by updating its xxx and yyy coordinates using cosine and sine functions.\
 
-<iframe src="https://editor.p5js.org/naman.rajoria19/full/oAbr4xEjU" height= '600' width='800'></iframe>\
+<iframe src="https://editor.p5js.org/naman.rajoria19/full/oAbr4xEjU" height="600" width="800">
+
+</iframe>
+
+\
 \
 
 **6) Clouds**\
@@ -116,26 +95,40 @@ Math Concept: Euclidean Distance
 
 -   Closer clouds appear bigger and brighter, while farther clouds appear smaller and more transparent.\
 
-<iframe src="https://editor.p5js.org/naman.rajoria19/full/souDanBHQ" height= '600' width='800'></iframe>
+<iframe src="https://editor.p5js.org/naman.rajoria19/full/souDanBHQ" height="600" width="800">
 
-###  Process & Practise
+</iframe>
+
+### Process & Practise
 
 We began by exploring natural patterns and generative algorithms, experimenting with different plant growth models, fractals and interactive elements.
 
 <!-- First Row -->
 
 ::: {style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;"}
-<iframe src="https://editor.p5js.org/AanyaPandith/full/oqAxLL0TP" width="400" height="300"></iframe> <iframe src="https://editor.p5js.org/AanyaPandith/full/NNeo_b0dx" width="400" height="300"></iframe>
+<iframe src="https://editor.p5js.org/AanyaPandith/full/oqAxLL0TP" width="400" height="300">
+
+</iframe>
+
+<iframe src="https://editor.p5js.org/AanyaPandith/full/NNeo_b0dx" width="400" height="300"></iframe>
 :::
 
 <!-- Second Row -->
 
 ::: {style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;"}
-<iframe src="https://editor.p5js.org/AanyaPandith/full/G1azhfHjT" width="400" height="300"></iframe> <iframe src="https://editor.p5js.org/diyaaa/full/VjLCQemJp" width="400" height="300"></iframe>
+<iframe src="https://editor.p5js.org/AanyaPandith/full/G1azhfHjT" width="400" height="300">
+
+</iframe>
+
+<iframe src="https://editor.p5js.org/diyaaa/full/VjLCQemJp" width="400" height="300"></iframe>
 :::
 
 <!-- Third Row (New Sketches) -->
 
 ::: {style="display: flex; justify-content: center; gap: 10px;"}
-<iframe src="https://editor.p5js.org/pmcfarla/full/2W3ewKjyN" width="400" height="300"></iframe> <iframe src="https://editor.p5js.org/diyaaa/full/u7gq4GuyG" width="400" height="300"></iframe>
+<iframe src="https://editor.p5js.org/pmcfarla/full/2W3ewKjyN" width="400" height="300">
+
+</iframe>
+
+<iframe src="https://editor.p5js.org/diyaaa/full/u7gq4GuyG" width="400" height="300"></iframe>
 :::
