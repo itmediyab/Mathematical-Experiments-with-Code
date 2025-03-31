@@ -14,5 +14,3 @@ about:
       text: Github
       href: https://github.com
 ---
-
-About this blog
