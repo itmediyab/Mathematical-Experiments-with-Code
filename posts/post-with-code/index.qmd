@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1"
-authors: "Diya Bijoy, Rayna Singh, Naman"
+authors: "Diya Bijoy"
 date: "2025-03-27"
 ---
 
@@ -66,9 +66,10 @@ Math Concept: Geometric Progression
 
 -   The flower shape is defined using parametric equations in polar coordinates.
 
--   **In the code,** this equation generates **radial symmetry**, giving the flower a structured petal arrangement.\
+-   In the code, this equation generates radial symmetry, giving the flower a structured petal arrangement.\
     \
     `<iframe src="https://editor.p5js.org/Sabootage-420/full/5Fg8Dmw3F"`{=html} `height= '600' width='800'></iframe>`{=html}
 
-    \
-    `<iframe src="https://editor.p5js.org/Sabootage-420/full/mx2ZNbD6Q"`{=html} `height= '600' width='800'></iframe>`{=html}
+    `<iframe src="https://editor.p5js.org/Sabootage-420/full/5VZoFRbds"`{=html} `height= '600' width='800'></iframe>`{=html}
+
+    `<iframe src="https://editor.p5js.org/Sabootage-420/full/rF8EcnjeS" `{=html} `height= '600' width='800'></iframe>`{=html}
