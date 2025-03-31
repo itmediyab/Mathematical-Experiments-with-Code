@@ -1,5 +1,5 @@
 ---
-title: "Mathematical Experiments with Code"
+title: "Studio 2: Mathematical Experiments with Code"
 listing:
   sort: "date desc"
   type: default
