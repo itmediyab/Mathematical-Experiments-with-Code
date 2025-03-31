@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Mathematical Experiments with Code",
     "section": "",
-    "text": "Assignment 1\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 27, 2025\n\n\nDiya Bijoy\n\n\n\n\n\n\nNo matching items"
+    "text": "Assignment 1\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "This is a post with executable code.\n\nai ai ai ai ai"
+    "text": "a) Trees\nTree uses recursive growth - gp\n\nb) Clouds"
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#a1-generative-garden",
+    "href": "posts/post-with-code/index.html#a1-generative-garden",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "a) Trees\nTree uses recursive growth - gp\n\nb) Clouds"
   }
 ]

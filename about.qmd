@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+name: Diya Bijoy
 about:
   template: jolla
   links:

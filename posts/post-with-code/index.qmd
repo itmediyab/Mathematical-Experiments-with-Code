@@ -1,6 +1,18 @@
 ---
 title: "Assignment 1"
-author: "Diya Bijoy"
+authors: "Diya Bijoy, Rayna Singh, Naman"
 date: "2025-03-27"
-categories: [news, code, analysis]
 ---
+
+## A1: Generative Garden
+
+### Concept Note
+
+### Garden Elements & Code Implementation
+
+a\) Trees\
+Tree uses recursive growth - gp\
+<iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height= '600' width='800'></iframe>
+
+b\) Clouds\
+<iframe src="https://editor.p5js.org/pmcfarla/full/2W3ewKjyN" height= '600' width='800'></iframe>
