@@ -23,8 +23,8 @@ Math Concept: Julia Fractals
     \
     <iframe src="https://editor.p5js.org/rayna20singh20/full/s1X5v9BHc" height= '600' width='800'></iframe>
 
-**2) Trees**\
-Math Concept: Geometric Progression
+    **2) Trees**\
+    Math Concept: Geometric Progression
 
 -   Geometric progression is a sequence where each term is multiplied by a fixed ratio.
 
@@ -34,8 +34,8 @@ Math Concept: Geometric Progression
     \
     <iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height= '600' width='800'></iframe>
 
-**3) Butterfly\
-**Math Concept: Circular Motion
+    **3) Butterfly\
+    **Math Concept: Circular Motion
 
 -   Circular motion describes movement along a curved path where an object's position changes based on sine and cosine functions.
 
@@ -45,8 +45,8 @@ Math Concept: Geometric Progression
     \
     <iframe src="https://editor.p5js.org/naman.rajoria19/full/oAbr4xEjU" height= '600' width='800'></iframe>
 
-**4) Clouds\
-**Math Concept: Euclidean Distance
+    **4) Clouds\
+    **Math Concept: Euclidean Distance
 
 -   Euclidean distance measures how far two points are from each other in a straight line.
 
@@ -55,14 +55,14 @@ Math Concept: Geometric Progression
 -   Formula:\
     d=(x2−x1)2+(y2−y1)2d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}d=(x2​−x1​)2+(y2​−y1​)2​
 
--    In the code, it calculates the distance between the mouse and each cloud to adjust their size and transparency.
+-   In the code, it calculates the distance between the mouse and each cloud to adjust their size and transparency.
 
 -   Closer clouds appear bigger and brighter, while farther clouds appear smaller and more transparent.\
     \
     <iframe src="https://editor.p5js.org/naman.rajoria19/full/souDanBHQ" height= '600' width='800'></iframe>
 
-**5) Flowers\
-**Math Concept: Parametric Equations
+    **5) Flowers\
+    **Math Concept: Parametric Equations
 
 -   The flower shape is defined using parametric equations in polar coordinates.
 
@@ -72,4 +72,10 @@ Math Concept: Geometric Progression
 
     `<iframe src="https://editor.p5js.org/Sabootage-420/full/5VZoFRbds"`{=html} `height= '600' width='800'></iframe>`{=html}
 
-    `<iframe src="https://editor.p5js.org/Sabootage-420/full/rF8EcnjeS" `{=html} `height= '600' width='800'></iframe>`{=html}
+    `<iframe src="https://editor.p5js.org/Sabootage-420/full/rF8EcnjeS"`{=html} `height= '600' width='800'></iframe>`{=html}
+
+### Garden Elements & Math Concepts
+
+::: {style="display: flex; justify-content: center; gap: 10px;"}
+<iframe src="https://editor.p5js.org/AanyaPandith/full/oqAxLL0TP" width="400" height="300"></iframe> <iframe src="https://editor.p5js.org/AanyaPandith/full/NNeo_b0dx" width="400" height="300"></iframe>
+:::
