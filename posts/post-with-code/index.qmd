@@ -8,11 +8,63 @@ date: "2025-03-27"
 
 ### Concept Note
 
-### Garden Elements & Code Implementation
+### Garden Elements & Math Concepts
 
-a\) Trees\
-Tree uses recursive growth - gp\
-<iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height= '600' width='800'></iframe>
+**1) Terrain**\
+Math Concept: Julia Fractals
 
-b\) Butterfly\
-<iframe src="https://editor.p5js.org/naman.rajoria19/full/oAbr4xEjU" height= '600' width='800'></iframe>
+-   The Julia set determines which areas are water or land.
+
+-   Formula: z=z\^2+c
+
+-   The rule takes a number, changes it using a formula and checks if it stays small or grows big.
+
+-   In the code, it creates a procedural landscape where blue areas represent water, and green areas represent land.\
+    <iframe src="https://editor.p5js.org/rayna20singh20/full/s1X5v9BHc" height= '600' width='800'></iframe>
+
+**2) Trees**\
+Math Concept: Geometric Progression
+
+-   Geometric progression is a sequence where each term is multiplied by a fixed ratio.
+
+-   Ln​=L0​×rn, where the branch length shrinks by **70%** each step.
+
+-   Each branch recursively creates three smaller branches, reducing in size until the length is 10 or less.\
+    <iframe src="https://editor.p5js.org/diyaaa/full/E9gXpnlnR" height= '600' width='800'></iframe>
+
+**3) Butterfly\
+**Math Concept: Circular Motion
+
+-   Circular motion describes movement along a curved path where an object's position changes based on sine and cosine functions.
+
+-   Formula: x=rcos(θ),y=rsin(θ)
+
+-   Each butterfly moves in a circular path by updating its xxx and yyy coordinates using cosine and sine functions.\
+    <iframe src="https://editor.p5js.org/naman.rajoria19/full/oAbr4xEjU" height= '600' width='800'></iframe>
+
+**4) Clouds\
+**Math Concept: Euclidean Distance
+
+-   Euclidean distance measures how far two points are from each other in a straight line.
+
+<!-- -->
+
+-   Formula:\
+    d=(x2−x1)2+(y2−y1)2d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}d=(x2​−x1​)2+(y2​−y1​)2​
+
+-    In the code, it calculates the distance between the mouse and each cloud to adjust their size and transparency.
+
+-   Closer clouds appear bigger and brighter, while farther clouds appear smaller and more transparent.
+
+    <iframe src="https://editor.p5js.org/naman.rajoria19/full/souDanBHQ" height= '600' width='800'></iframe>
+
+**5) Flowers\
+**Math Concept: Parametric Equations
+
+-   The flower shape is defined using parametric equations in polar coordinates.
+
+-   **In the code,** this equation generates **radial symmetry**, giving the flower a structured petal arrangement.
+
+    \<iframe src="https://editor.p5js.org/Sabootage-420/full/5Fg8Dmw3F" height= '600' width='800'\>\</iframe\>\
+    \
+    `<iframe src="https://editor.p5js.org/Sabootage-420/full/mx2ZNbD6Q"`{=html} height ='600' width='800'\></iframe>
