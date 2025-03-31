@@ -8,7 +8,9 @@ date: "2025-03-31"
 
 Rayna Singh, Diya Bijoy, Aanya Pandith, Naman Rajoria, Soumya Saboo
 
-### Concept Note
+`<iframe src="https://editor.p5js.org/rayna20singh20/full/EH96o9aZE"`{=html} `height= '600' width='800'></iframe>`{=html}
+
+###  Concept Note
 
 \
 In Islamic culture, creating a garden is equivalent to building a piece of heaven on earth. The main objective of this art piece is to fabricate an immersive 3D garden that reimagines natural landscapes through digital media using code. The title “Anavrin,” is Nirvana spelled backwards, the reason for initiating this title is to reinstate the serenity that a garden brings to the visitor. Our main objective is to mirror a real-world garden, or rather our interpretation of the same, onto a digital stage. Hence, we use the mirror as our main conduit for this exercise and hold up a mirror on the word ‘Nirvana.’ Nirvana can be interpreted as a place or state of oblivion to care, pain, or external reality.
