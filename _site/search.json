@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Studio 2: Mathematical Experiments with Code",
     "section": "",
-    "text": "Name: Diya Bijoy\nAdmission ID: 235306018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 2\n\n\n\n\n\n\n\n\n\n\n\nApr 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 1\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Name: Diya Bijoy\nAdmission ID: 235306018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 1\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -82,5 +82,61 @@
     "title": "Assignment 2",
     "section": "",
     "text": "Sara Saju, Diya Bijoy, Bunyan Usman, Ayush Garg and Sheil Srimany"
+  },
+  {
+    "objectID": "posts/a2/CopyOfindex.html#problems-we-ran-into",
+    "href": "posts/a2/CopyOfindex.html#problems-we-ran-into",
+    "title": "Assignment 2",
+    "section": "Problems we ran into",
+    "text": "Problems we ran into\n\nWe ran into an issue where the Handpose model detected 43 points instead of 42. To fix this, we removed the “which hand” point from the CSV file, which was causing the extra point."
+  },
+  {
+    "objectID": "posts/A2/A2.html#a2-dance-mudra-detection",
+    "href": "posts/A2/A2.html#a2-dance-mudra-detection",
+    "title": "A2",
+    "section": "",
+    "text": "Sara Saju, Diya Bijoy, Bunyan Usman, Ayush Garg and Sheil Srimany  This project uses ml5.js and p5.js to build a real-time mudra recognition system. Based on the recognized mudra, the system plays a corresponding audio track — specifically, Carnatic/Bharatanatyam based classical music for each gesture.\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "posts/A2/A2.html#problems-we-ran-into",
+    "href": "posts/A2/A2.html#problems-we-ran-into",
+    "title": "A2",
+    "section": "Problems we ran into",
+    "text": "Problems we ran into\n\nWe had an issue where the Handpose model was detecting 43 points instead of 42. This was because it included an extra “which hand” point. To fix it, we removed that point from the CSV file. After that, the graph showed up properly without any NaN errors.\n\n\n \n\n\nWe used http://localhost:8000/model/model.json to load our trained model because browsers do not allow direct access to local files for security reasons. By running a local server with python -m http.server 8000, we could load files like model.json and audio properly. This made it possible to test the project as if it were live on a real website.\nWe explored using a Convolutional Neural Network to train our model with TensorFlow, but ran into issues. CNNs requires a large amount of image data and our dataset was too small to train the model effectively. Because of this, we switched to using a Multi-Layer Perceptron."
+  },
+  {
+    "objectID": "posts/A2/a2.html",
+    "href": "posts/A2/a2.html",
+    "title": "a2",
+    "section": "",
+    "text": "Sara Saju, Diya Bijoy, Bunyan Usman, Ayush Garg and Sheil Srimany\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "posts/A2/a2.html#a2-dance-mudra-detection",
+    "href": "posts/A2/a2.html#a2-dance-mudra-detection",
+    "title": "a2",
+    "section": "",
+    "text": "Sara Saju, Diya Bijoy, Bunyan Usman, Ayush Garg and Sheil Srimany\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "posts/A2/a2.html#problems-we-ran-into",
+    "href": "posts/A2/a2.html#problems-we-ran-into",
+    "title": "a2",
+    "section": "Problems we ran into",
+    "text": "Problems we ran into\n\nWe ran into an issue where the Handpose model detected 43 points instead of 42. To fix this, we removed the “which hand” point from the CSV file, which was causing the extra point."
+  },
+  {
+    "objectID": "posts/A2/A2.html",
+    "href": "posts/A2/A2.html",
+    "title": "A2",
+    "section": "",
+    "text": "Sara Saju, Diya Bijoy, Bunyan Usman, Ayush Garg and Sheil Srimany  This project uses ml5.js and p5.js to build a real-time mudra recognition system. Based on the recognized mudra, the system plays a corresponding audio track — specifically, Carnatic/Bharatanatyam based classical music for each gesture.\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "posts/A2/A2.html#main-technologies-used",
+    "href": "posts/A2/A2.html#main-technologies-used",
+    "title": "A2",
+    "section": "Main Technologies Used",
+    "text": "Main Technologies Used\n\np5.js (Locally): Used for handling the webcam feed, drawing visuals, sound integration, and processing CSV files locally to extract names, paths of images, and the 21 keypoints data.\nml5.js: For using the handpose model and integrating a trained neural network.\nNeural Network Model: Trained using your own dataset of hand images.\nHTML/CSS: To build the webpage interface and display live predictions.\nVS Code: Used for training both the machine learning (ML) and convolutional neural network (CNN) models.\nPython: Set up the local server for hosting the project and organizing the initial CSV files with image names and paths.\nAI: Refined the code structure for optimal performance, with references from the official ml5.js documentation."
   }
 ]
