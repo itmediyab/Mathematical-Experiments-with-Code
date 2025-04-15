@@ -58,7 +58,11 @@ c.  model.weights.bin
 -   Throughout the process, we ran multiple tests using smaller image sets and CSV files to ensure each part worked before scaling up. Even with this testing, we encountered several challenges when using the full dataset in the final implementation. ![Image of Process of getting the 21 keypoints](21points.jpg)
 
 [Link to live detection](https://editor.p5js.org/sarasj0510/full/2FCh_V8x6)\
-[Link to csv file](https://editor.p5js.org/sarasj0510/full/uv0HuV8m-) <br>
+[Link to csv file](https://editor.p5js.org/sarasj0510/full/uv0HuV8m-)\
+[Link to training-cnn](https://editor.p5js.org/sarasj0510/sketches/5wm1M3MFl)\
+[Link to training-mlp](https://editor.p5js.org/sarasj0510/sketches/4iKoRJj-E)
+
+<br>
 
 ## Problems we ran into
 
