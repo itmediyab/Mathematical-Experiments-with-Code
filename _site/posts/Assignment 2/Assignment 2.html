@@ -146,8 +146,8 @@ ul.task-list li input[type="checkbox"] {
 </video>
 <p><br></p>
 </section>
-<section id="main-technologies-used" class="level2">
-<h2 class="anchored" data-anchor-id="main-technologies-used">Main Technologies Used</h2>
+<section id="main-tools-used" class="level2">
+<h2 class="anchored" data-anchor-id="main-tools-used">Main Tools Used</h2>
 <ul>
 <li><p>p5.js (Locally): Used for handling the webcam feed, drawing visuals, sound integration, and processing CSV files locally to extract names, paths of images, and the 21 keypoints data.</p></li>
 <li><p>ml5.js: For using the handpose model and integrating a trained neural network.</p></li>
@@ -161,20 +161,41 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="process" class="level2">
 <h2 class="anchored" data-anchor-id="process">Process</h2>
-<p><a href="https://editor.p5js.org/sarasj0510/full/2FCh_V8x6">Link to live detection</a> <a href="https://editor.p5js.org/sarasj0510/full/uv0HuV8m-">Link to csv file</a></p>
+<ul>
+<li><p>We began by taking images of people performing five mudras: Arala, Kapita, Kartari, Kataka Mukha, and Mayura.</p></li>
+<li><p>The images were categorized into separate folders and uploaded to Google Drive.</p></li>
+<li><p>We used Python to generate a file called path2.csv, which contains the name and path of each image.</p></li>
+<li><p>This CSV file, along with the images, was then used to extract the 21 keypoints for each image using the handpose model, resulting in a new file: hand_keypoints.csv.</p></li>
+<li><p>We trained a multi-layer perceptron (MLP) model using this data and received three output files:</p></li>
+</ul>
+<ol type="a">
+<li>model.json</li>
+<li>model_meta.json</li>
+<li>model.weights.bin</li>
+</ol>
+<ul>
+<li><p>Audio clips for each varnam were sourced from YouTube and added to the project.</p></li>
+<li><p>These files were integrated into p5 for live mudra detection using the webcam and corresponding audio.</p></li>
+<li><p>Throughout the process, we ran multiple tests using smaller image sets and CSV files to ensure each part worked before scaling up. Even with this testing, we encountered several challenges when using the full dataset in the final implementation. <img src="21points.jpg" class="img-fluid" alt="Image of Process of getting the 21 keypoints"></p></li>
+</ul>
+<p><a href="https://editor.p5js.org/sarasj0510/full/2FCh_V8x6">Link to live detection</a><br>
+<a href="https://editor.p5js.org/sarasj0510/full/uv0HuV8m-">Link to csv file</a></p>
 </section>
 <section id="problems-we-ran-into" class="level2">
 <h2 class="anchored" data-anchor-id="problems-we-ran-into">Problems we ran into</h2>
 <ul>
 <li>We had an issue where the Handpose model was detecting 43 points instead of 42. This was because it included an extra “which hand” point. To fix it, we removed that point from the CSV file. After that, the graph showed up properly without any NaN errors.</li>
 </ul>
-<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
-<p><img src="nan_error.jpg" width="400" height="300"> <img src="without_nan_error.jpg" width="400" height="300"></p>
-</div>
+<p><img src="nan_error.jpg" class="img-fluid"></p>
+<p><img src="without_nan_error.jpg" class="img-fluid"></p>
 <ul>
-<li>We used <code>http://localhost:8000/model/model.json</code> to load our trained model because browsers do not allow direct access to local files for security reasons. By running a local server with <code>python -m http.server 8000</code>, we could load files like <code>model.json</code> and audio properly. This made it possible to test the project as if it were live on a real website.</li>
-<li>We explored using a Convolutional Neural Network to train our model with TensorFlow, but ran into issues. CNNs requires a large amount of image data and our dataset was too small to train the model effectively. Because of this, we switched to using a Multi-Layer Perceptron.</li>
+<li><p>We used <code>http://localhost:8000/model/model.json</code> to load our trained model because browsers do not allow direct access to local files for security reasons. By running a local server with <code>python -m http.server 8000</code>, we could load files like <code>model.json</code> and audio properly. This made it possible to test the project as if it were live on a real website.</p></li>
+<li><p>We explored using a Convolutional Neural Network to train our model with TensorFlow, but ran into issues. CNNs requires a large amount of image data and our dataset was too small to train the model effectively. Because of this, we switched to using a Multi-Layer Perceptron.</p></li>
+<li><p>We encountered several issues with the CSV files during the preparation of our dataset. Initially, we tried to extract the 21 keypoints directly by feeding a folder of images into our code. However, this approach led to a lot of missing data—many images failed to return any coordinates.<br>
+We also attempted a manual method to estimate approximate values, but this didn’t work either.<br>
+The issue was eventually resolved with help from Aishwarya’s team. They provided us with the initial code to extract the keypoints into a CSV file and suggested that we first generate a separate CSV file (path2.csv) containing the name and path of each image. Using this file, along with the images, we were able to feed the data into the detection model more effectively and extract the 21 hand keypoints. While some images still couldn’t be read—possibly due to background obstructions—the overall number of missing entries was significantly reduced. <img src="modeljson.jpg" class="img-fluid"></p></li>
 </ul>
+<hr>
 
 
 </section>
