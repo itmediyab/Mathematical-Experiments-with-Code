@@ -1,6 +1,7 @@
 ---
 title: "Assignment 2"
-format: html
+authors: "Diya Bijoy"
+date: "2025-04-15"
 ---
 
 ## A2: Dance Mudra Detection
