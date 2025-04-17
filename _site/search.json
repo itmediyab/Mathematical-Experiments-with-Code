@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Studio 2: Mathematical Experiments with Code",
     "section": "",
-    "text": "Name: Diya Bijoy\nAdmission ID: 235306018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 1\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Name: Diya Bijoy\nAdmission ID: 235306018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 2\n\n\n\n\n\n\n\n\n\n\n\nApr 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 1\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -102,7 +102,7 @@
     "href": "posts/A2/A2.html#problems-we-ran-into",
     "title": "Assignment 2",
     "section": "Problems we ran into",
-    "text": "Problems we ran into\n\nWe had an issue where the Handpose model was detecting 43 points instead of 42. This was because it included an extra “which hand” point. To fix it, we removed that point from the CSV file. After that, the graph showed up properly without any NaN errors.\n\n\n\n\nWe used http://localhost:8000/model/model.json to load our trained model because browsers do not allow direct access to local files for security reasons. By running a local server with python -m http.server 8000, we could load files like model.json and audio properly. This made it possible to test the project as if it were live on a real website. \nWe explored using a Convolutional Neural Network to train our model with TensorFlow, but ran into issues. CNNs requires a large amount of image data and our dataset was too small to train the model effectively. Because of this, we switched to using a Multi-Layer Perceptron.\nWe encountered several issues with the CSV files during the preparation of our dataset. Initially, we tried to extract the 21 keypoints directly by feeding a folder of images into our code. However, this approach led to a lot of missing data—many images failed to return any coordinates.\nWe also attempted a manual method to estimate approximate values, but this didn’t work either.\nThe issue was eventually resolved with help from Aishwarya’s team. They provided us with the initial code to extract the keypoints into a CSV file and suggested that we first generate a separate CSV file (path2.csv) containing the name and path of each image. Using this file, along with the images, we were able to feed the data into the detection model more effectively and extract the 21 hand keypoints. While some images still couldn’t be read—possibly due to background obstructions—the overall number of missing entries was significantly reduced."
+    "text": "Problems we ran into\n\nWe had an issue where the Handpose model was detecting 43 points instead of 42. This was because it included an extra “which hand” point. To fix it, we removed that point from the CSV file. After that, the graph showed up properly without any NaN errors.\n\n\n\n\nWe used http://localhost:8000/model/model.json to load our trained model because browsers do not allow direct access to local files for security reasons. By running a local server with python -m http.server 8000, we could load files like model.json and audio properly. This made it possible to test the project as if it were live on a real website. \nWe explored using a Convolutional Neural Network to train our model with TensorFlow, but ran into issues. CNNs requires a large amount of image data and our dataset was too small to train the model effectively. Because of this, we switched to using a Multi-Layer Perceptron.\nWe encountered several issues with the CSV files during the preparation of our dataset. Initially, we tried to extract the 21 keypoints directly by feeding a folder of images into our code. However, this approach led to a lot of missing data—many images failed to return any coordinates.\nWe also attempted a manual method to estimate approximate values, but this didn’t work either.\nThe issue was eventually resolved with help from Aishwarya’s team. They provided us with the initial code to extract the keypoints into a CSV file and suggested that we first generate a separate CSV file (path2.csv) containing the name and path of each image. Using this file, along with the images, we were able to feed the data into the detection model more effectively and extract the 21 hand keypoints. While some images still couldn’t be read—possibly due to background obstructions—the overall number of missing entries was significantly reduced.\nMayura and Arala detection had multiple glitches during live detection, especially for Mayura. We are assuming this is due to inconsistencies in the training dataset - some images may have had variations in hand posture which confused the model during prediction.\nWe also noticed that the model could not detect the hand coordinates properly in images without a white background or when the hands had paint or charcoal on them. This made it harder for the model to recognise the mudrasc correctly."
   },
   {
     "objectID": "posts/A2/a2.html",
@@ -256,6 +256,27 @@
     "href": "posts/A2/A2.html#process",
     "title": "Assignment 2",
     "section": "Process",
-    "text": "Process\n\nWe began by taking images of people performing five mudras: Arala, Kapita, Kartari, Kataka Mukha, and Mayura.\nThe images were categorized into separate folders and uploaded to Google Drive.\nWe used Python to generate a file called path2.csv, which contains the name and path of each image.\nThis CSV file, along with the images, was then used to extract the 21 keypoints for each image using the handpose model, resulting in a new file: hand_keypoints.csv.\nWe trained a multi-layer perceptron (MLP) model using this data and received three output files:\n\n\nmodel.json\nmodel_meta.json\nmodel.weights.bin\n\n\nAudio clips for each varnam were sourced from YouTube and added to the project.\nThese files were integrated into p5 for live mudra detection using the webcam and corresponding audio.\nThroughout the process, we ran multiple tests using smaller image sets and CSV files to ensure each part worked before scaling up. Even with this testing, we encountered several challenges when using the full dataset in the final implementation. \n\nLink to live detection\nLink to csv file\nLink to training-cnn\nLink to training-mlp"
+    "text": "Process\n\nWe began by taking images of people performing five mudras: Arala, Kapita, Kartari, Kataka Mukha, and Mayura.\nThe images were categorized into separate folders and uploaded to Google Drive.\nWe used Python to generate a file called path2.csv, which contains the name and path of each image.\nThis CSV file, along with the images, was then used to extract the 21 keypoints for each image using the handpose model, resulting in a new file: hand_keypoints.csv.\nWe trained a multi-layer perceptron (MLP) model using this data and received three output files:\n\n\nmodel.json\nmodel_meta.json\nmodel.weights.bin\n\n\nAudio clips for each varnam were sourced from YouTube and added to the project.\nThese files were integrated into p5 for live mudra detection using the webcam and corresponding audio.\nThroughout the process, we ran multiple tests using smaller image sets and CSV files to ensure each part worked before scaling up. Even with this testing, we encountered several challenges when using the full dataset in the final implementation. \nWe understood the difference between the code for each model: ml5.neuralNetwork() is used to create a Multilayer Perceptron. Whereas ml5.featureExtractor() is used define CNN.\n\nLink to live detection\nLink to csv file\nLink to training-cnn\nLink to training-mlp"
+  },
+  {
+    "objectID": "posts/A2/CopyOfindex.html",
+    "href": "posts/A2/CopyOfindex.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Sara Saju, Diya Bijoy, Bunyan Usman, Ayush Garg and Sheil Srimany"
+  },
+  {
+    "objectID": "posts/A2/CopyOfindex.html#a2-dance-mudra-detection",
+    "href": "posts/A2/CopyOfindex.html#a2-dance-mudra-detection",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Sara Saju, Diya Bijoy, Bunyan Usman, Ayush Garg and Sheil Srimany"
+  },
+  {
+    "objectID": "posts/A2/CopyOfindex.html#problems-we-ran-into",
+    "href": "posts/A2/CopyOfindex.html#problems-we-ran-into",
+    "title": "Assignment 2",
+    "section": "Problems we ran into",
+    "text": "Problems we ran into\n\nWe ran into an issue where the Handpose model detected 43 points instead of 42. To fix this, we removed the “which hand” point from the CSV file, which was causing the extra point."
   }
 ]

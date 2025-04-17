@@ -57,6 +57,8 @@ c.  model.weights.bin
 
 -   Throughout the process, we ran multiple tests using smaller image sets and CSV files to ensure each part worked before scaling up. Even with this testing, we encountered several challenges when using the full dataset in the final implementation. ![Image of Process of getting the 21 keypoints](21points.jpg)
 
+-   We understood the difference between the code for each model: **ml5.neuralNetwork()** is used to create a Multilayer Perceptron. Whereas **ml5.featureExtractor()** is used define CNN.
+
 [Link to live detection](https://editor.p5js.org/sarasj0510/full/2FCh_V8x6)\
 [Link to csv file](https://editor.p5js.org/sarasj0510/full/uv0HuV8m-)\
 [Link to training-cnn](https://editor.p5js.org/sarasj0510/sketches/5wm1M3MFl)\
@@ -79,5 +81,9 @@ c.  model.weights.bin
 -   We encountered several issues with the CSV files during the preparation of our dataset. Initially, we tried to extract the 21 keypoints directly by feeding a folder of images into our code. However, this approach led to a lot of missing data—many images failed to return any coordinates.\
     We also attempted a manual method to estimate approximate values, but this didn't work either.\
     The issue was eventually resolved with help from Aishwarya’s team. They provided us with the initial code to extract the keypoints into a CSV file and suggested that we first generate a separate CSV file (path2.csv) containing the name and path of each image. Using this file, along with the images, we were able to feed the data into the detection model more effectively and extract the 21 hand keypoints. While some images still couldn’t be read—possibly due to background obstructions—the overall number of missing entries was significantly reduced.
+
+- Mayura and Arala detection had multiple glitches during live detection, especially for Mayura. We are assuming this is due to inconsistencies in the training dataset - some images may have had variations in hand posture which confused the model during prediction.
+
+- We also noticed that the model could not detect the hand coordinates properly in images without a white background or when the hands had paint or charcoal on them. This made it harder for the model to recognise the mudrasc correctly.
 
 ------------------------------------------------------------------------
